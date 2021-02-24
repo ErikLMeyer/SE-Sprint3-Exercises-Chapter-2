@@ -8,4 +8,4 @@ All code copied from Ethan Brown from textbook.
 
 Required files:
 
-Chapter 2: helloworld.js, home.html, about.html, 404.html, logo.png
+helloworld.js, home.html, about.html, 404.html, logo.png

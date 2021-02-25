@@ -16,6 +16,8 @@ function serveStaticFile(res, path, contentType, responseCode = 200) {
 const server = http.createServer((req,res) => {
   // normalize url by removing querystring, optional trailing slash, and
   // making lowercase
+
+  // Added case for my own secret page -EM
   const path = req.url.replace(/\/?(?:\?.*)?$/, '').toLowerCase()
   switch(path) {
     case '':
@@ -23,6 +25,9 @@ const server = http.createServer((req,res) => {
       break
     case '/about':
       serveStaticFile(res, '/public/about.html', 'text/html')
+      break
+    case '/secret':
+      serveStaticFile(res,'/public/secret.html', 'text/html')
       break
     case '/img/logo.png':
       serveStaticFile(res, '/public/img/logo.png', 'image/png')

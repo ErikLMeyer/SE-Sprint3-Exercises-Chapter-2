@@ -5,6 +5,10 @@
     "private": true,
     "license": "MIT",
     "author": "Erik L. Meyer",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/ErikLMeyer/SE-Sprint3-Exercises-Chapter-2"
+      },
     "scripts": {
         "start": "node helloworld.js"
     }

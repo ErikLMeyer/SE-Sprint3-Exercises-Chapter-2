@@ -1,0 +1,11 @@
+{
+    "name": "brown-chapter-2",
+    "description": "Hello world from Brown chapter 2",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Erik L. Meyer",
+    "scripts": {
+        "start": "node helloworld.js"
+    }
+}
